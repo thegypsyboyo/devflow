@@ -10,7 +10,7 @@ import { auth } from '@clerk/nextjs';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Collection | Dev Overflow'
+  title: 'Collection | Meta Dev'
 };
 
 export default async function Collection({

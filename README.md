@@ -1,18 +1,17 @@
-# Dev Overflow
+# Meta Devs
 
-![demo](https://i.ibb.co/x7FChRP/Thumbnail.jpg)
 
 ## 🌐 Live Demo
 
-Explore the live demonstration of the project: [nextjs14-devoverflow](https://devflow-davidevignozzi.vercel.app/)
+Explore the live demonstration of the project: [nextjs14-MetaDevs](https://metadevs.vercel.app/)
 
 ## Description
 
-**DevOverflow** is a complex Q&A platform for developers to ask questions, share knowledge, and learn from each other.
+**MetaDevs** is a complex Q&A platform for developers to ask questions, share knowledge, and learn from each other.
 
 ## ✨ Technologies Used
 
-**DevOverflow** is built using the following technologies:
+**MetaDevs** is built using the following technologies:
 
 - [Next.js](https://nextjs.org/): Next.js is a React framework for building server-side rendered and statically generated web applications.
 - [TypeScript](https://www.typescriptlang.org/): TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.

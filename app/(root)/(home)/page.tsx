@@ -17,7 +17,7 @@ import type { Metadata } from 'next';
 import { auth } from '@clerk/nextjs';
 
 export const metadata: Metadata = {
-  title: 'Home | Dev Overflow',
+  title: 'Home | Meta Dev',
   description: 'Dev Overflow is a community of developers. Join us'
 };
 
