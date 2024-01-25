@@ -17,12 +17,13 @@ import type { Metadata } from 'next';
 import { auth } from '@clerk/nextjs';
 
 export const metadata: Metadata = {
-  title: 'Home | Meta Dev',
+  title: 'Home | GPA-Tracking',
   description: 'Dev Overflow is a community of developers. Join us'
 };
 
 export default async function Home({ searchParams }: SearchParamsProps) {
   const { userId } = auth();
+  // const userId = "CL123456"
 
   let result;
 
