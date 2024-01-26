@@ -47,7 +47,7 @@ const PublishCourses = ({ mongoUserId }: Props) => {
       });
 
       // navigate to the home page;
-      router.push("/courses");
+      router.push("/");
     } catch (error) {
     } finally {
       setIsSubmitting(false);
