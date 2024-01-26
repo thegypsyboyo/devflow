@@ -1,6 +1,17 @@
 import { Schema } from 'mongoose';
 import { IUser } from '@/mongodb';
 
+
+
+export interface CreateCourseParams {
+  title: string;
+  description: string;
+  // semesterId: string; // Semester ID
+  // instructorId: string; // Instructor ID (User ID)
+  picture: string; // URL for the course picture
+  instructor: Schema.Types.ObjectId | IUser;
+  path: string;
+}
 export interface CreateAnswerParams {
   content: string;
   author: string; // User ID

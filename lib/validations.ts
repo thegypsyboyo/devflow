@@ -22,3 +22,12 @@ export const ProfileSchema = z.object({
   portfolioWebsite: z.string().url(),
   location: z.string().min(5).max(50)
 });
+
+export const CourseSchema = z.object({
+  title: z.string().min(5).max(100),
+  description: z.string().min(20),
+  // semesterId: z.string(),
+  // instructorId: z.string(),
+  picture: z.string().url(), // Assuming the picture is a URL. You can adjust the validation as needed.
+});
+

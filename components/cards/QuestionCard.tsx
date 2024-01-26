@@ -37,7 +37,7 @@ const QuestionCard = ({
   createdAt
 }: QuestionProps) => {
   const showActionButtons = clerkId && clerkId === author.clerkId;
-
+  // console.log("Author:", author)
   return (
     <div className="card-wrapper rounded-[10px] p-9 sm:px-11">
       <div className="flex flex-col-reverse items-start justify-between gap-5 sm:flex-row">
@@ -75,11 +75,11 @@ const QuestionCard = ({
       <div className="flex-between mt-6 w-full flex-wrap gap-3">
         {/* Author */}
         <Metric
-          imgUrl={author.picture}
+          imgUrl={author?.picture}
           alt="user"
-          value={author.name}
-          title={`- asket ${getTimestamp(createdAt)}`}
-          href={`/profile/${author.clerkId}`}
+          value={author?.name}
+          title={`- asked ${getTimestamp(createdAt)}`}
+          href={`/profile/${author?.clerkId}`}
           isAuthor
           textStyle="body-medium text-dark400_light700"
         />

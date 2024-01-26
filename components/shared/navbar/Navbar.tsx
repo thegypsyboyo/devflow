@@ -10,7 +10,7 @@ const Navbar = () => {
       {/* Logo */}
       <Link href="/" className="flex items-center gap-1">
         <p className="h2-bold font-spaceGrotesk text-dark-100 dark:text-light-900">
-          Meta<span className="ml-2 text-primary-500">Devs</span>
+          GPA<span className="ml-2 text-primary-500">Tracker</span>
         </p>
       </Link>
 
